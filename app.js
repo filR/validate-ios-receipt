@@ -1,5 +1,7 @@
 var request = require('request');
 
+// Documentation: https://developer.apple.com/library/ios/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1
+
 // do we have the parameters we need
 if (process.argv.indexOf('--receipt') === -1 ||
     process.argv.indexOf('--secret') === -1) {
